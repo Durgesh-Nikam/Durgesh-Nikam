@@ -1,3 +1,4 @@
+<!--
 <h1 align="center">Hi 👋, I'm Durgesh Anil Nikam</h1>
 
 <h3 align="center">🚀 Aspiring DevOps Engineer | Full Stack Developer | AI Enthusiast</h3>
@@ -102,8 +103,12 @@ I aim to become a **CTO-level professional** in the next decade by mastering sof
 ---
 ---
 
+
+
+ -->
+<h1 align="center">Hi 👋, I'm Durgesh Anil Nikam</h1>
+
+---
+
 ## 🐍 Contribution Snake
-
 ![Snake animation](https://github.com/Durgesh-Nikam/Durgesh-Nikam/blob/output/github-contribution-grid-snake.svg)
-
-
