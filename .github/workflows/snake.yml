@@ -19,8 +19,8 @@ jobs:
         with:
           github_user_name: Durgesh-Nikam
           outputs: |
-            assets/snake.svg
-            assets/snake-dark.svg
+            assets/snake.svg?palette=github
+            assets/snake-dark.svg?palette=github-dark
 
       - name: Commit snake
         run: |
