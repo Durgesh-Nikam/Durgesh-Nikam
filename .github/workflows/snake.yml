@@ -19,8 +19,9 @@ jobs:
         with:
           github_user_name: Durgesh-Nikam
           outputs: |
-            assets/snake.svg?palette=github
+            assets/snake.svg?color_snake=1f6feb&color_dots=ebedf0,79c0ff,58a6ff,1f6feb
             assets/snake-dark.svg?palette=github-dark
+            
 
 
       - name: Commit snake
