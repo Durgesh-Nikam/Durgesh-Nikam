@@ -113,7 +113,7 @@ I aim to become a **CTO-level professional** in the next decade by mastering sof
 
 ## 🐍 Contribution Snake
 
-![Snake Dark](./assets/snake-dark.svg)
+![Snake](./assets/snake-dark.svg)
 
 
 
