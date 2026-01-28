@@ -98,3 +98,12 @@ I aim to become a **CTO-level professional** in the next decade by mastering sof
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=DurgeshNikam9274&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
 </p>
+
+---
+---
+
+## 🐍 Contribution Snake
+
+![Snake animation](https://github.com/Durgesh-Nikam/Durgesh-Nikam/blob/output/github-contribution-grid-snake.svg)
+
+
