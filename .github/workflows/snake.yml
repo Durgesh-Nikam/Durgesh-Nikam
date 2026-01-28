@@ -1,31 +1,58 @@
 name: Generate Snake
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 jobs:
-  snake:
+  generate:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Generate snake
-        uses: Platane/snk@v3
+      - uses: Platane/snk@v3
         with:
           github_user_name: Durgesh-Nikam
           outputs: |
-            assets/snake.svg
-            assets/snake-dark.svg
+            dist/snake.svg
+            dist/snake-dark.svg
 
-      - name: Commit snake
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add assets/
-          git commit -m "Update snake animation" || echo "No changes"
-          git push
+      - uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: output
+          folder: dist
+
+
+# name: Generate Snake
+
+# on:
+#   workflow_dispatch:
+#   schedule:
+#     - cron: "0 0 * * *"
+
+# jobs:
+#   snake:
+#     runs-on: ubuntu-latest
+#     permissions:
+#       contents: write
+
+#     steps:
+#       - uses: actions/checkout@v4
+
+#       - name: Generate snake
+#         uses: Platane/snk@v3
+#         with:
+#           github_user_name: Durgesh-Nikam
+#           outputs: |
+#             assets/snake.svg
+#             assets/snake-dark.svg
+
+#       - name: Commit snake
+#         run: |
+#           git config user.name "github-actions"
+#           git config user.email "github-actions@github.com"
+#           git add assets/
+#           git commit -m "Update snake animation" || echo "No changes"
+#           git push
