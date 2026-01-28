@@ -109,6 +109,3 @@ I aim to become a **CTO-level professional** in the next decade by mastering sof
 <h1 align="center">Hi 👋, I'm Durgesh Anil Nikam</h1>
 
 ---
-
-## 🐍 Contribution Snake
-![Snake animation](https://github.com/Durgesh-Nikam/Durgesh-Nikam/blob/output/github-contribution-grid-snake.svg)
